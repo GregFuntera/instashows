@@ -2,6 +2,8 @@
 /* color-light: #484848 */
 /* color-dark: #000000 */
 
+@import url('content-skeleton-loader.css');
+
 body {
     margin: 0px;
     font-family: 'Raleway';
