@@ -3,6 +3,7 @@
 /* color-dark: #000000 */
 
 @import url('content-skeleton-loader.css');
+@import url('suggested-skeleton-loader.css');
 
 body {
     margin: 0px;
@@ -346,6 +347,7 @@ footer {
     background: #212121;
     position: fixed;
     bottom: 0;
+    right: 0;
 }
 
 footer .signature #web-title, #web-creator, #web-created {

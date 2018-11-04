@@ -1,13 +1,26 @@
 window.onload = () => {
     const content = document.getElementById('content');
-    const loader = document.getElementById('content-skeleton-loader');
+    const contentLoader = document.getElementById('content-skeleton-loader');
+
+    const latestShow = document.getElementById('latest-show');
+    const suggestedShow = document.getElementById('suggested-show');
+    const suggestedLoader = document.getElementById('suggested-skeleton-loader');
     
-    loader.style.display = 'block';
+    contentLoader.style.display = 'block';
     content.style.display = 'none';
 
+    suggestedLoader.style.display = 'block';
+    latestShow.style.display = 'none';
+    suggestedShow.style.display = 'none';
+
+
     setTimeout(() => {
-        loader.style.display = 'none';
+        contentLoader.style.display = 'none';
         content.style.display = 'block';
+
+        suggestedLoader.style.display = 'none';
+        latestShow.style.display = 'block';
+        suggestedShow.style.display = 'block';
     }, 2000);
 };
 
